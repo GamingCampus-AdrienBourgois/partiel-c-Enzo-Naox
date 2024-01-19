@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="BankAccount">
+      <UniqueIdentifier>{acd5fc32-7d5a-41f1-a597-4794babd7281}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -40,12 +43,20 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="BankAccount\784512.txt" />
-    <Text Include="BankAccount\846326.txt" />
-    <Text Include="BankAccount\859314.txt" />
-    <Text Include="BankAccount\968521.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <CopyFileToFolders Include="BankAccount\159874.txt" />
+    <CopyFileToFolders Include="BankAccount\159874.txt">
+      <Filter>BankAccount</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="BankAccount\784512.txt">
+      <Filter>BankAccount</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="BankAccount\846326.txt">
+      <Filter>BankAccount</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="BankAccount\859314.txt">
+      <Filter>BankAccount</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="BankAccount\968521.txt">
+      <Filter>BankAccount</Filter>
+    </CopyFileToFolders>
   </ItemGroup>
 </Project>

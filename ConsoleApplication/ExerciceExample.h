@@ -12,6 +12,7 @@ public:
 		{
 		case 0: return SolutionExample::Sum(-1, 1) == 0;
 		case 1: return SolutionExample::Sum(10, 20) == 30;
+		case 3: return SolutionExample::Sum(10, 20) == 30;
 		default: throw std::logic_error("Test not found !");
 		}
 	}

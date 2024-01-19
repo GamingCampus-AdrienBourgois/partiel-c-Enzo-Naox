@@ -214,43 +214,51 @@
   </ItemGroup>
   <ItemGroup>
     <CopyFileToFolders Include="BankAccount\159874.txt">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)/BankAccount</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Autograding|Win32'">$(OutDir)/BankAccount</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)/BankAccount</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)/BankAccount</DestinationFolders>
       <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Autograding|x64'">$(OutDir)/BankAccount</DestinationFolders>
+      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Autograding|Win32'">$(OutDir)/BankAccount</DestinationFolders>
+      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)/BankAccount</DestinationFolders>
+      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)/BankAccount</DestinationFolders>
+      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)/BankAccount</DestinationFolders>
       <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)/BankAccount</DestinationFolders>
     </CopyFileToFolders>
+  </ItemGroup>
+  <ItemGroup>
     <CopyFileToFolders Include="BankAccount\784512.txt">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)/BankAccount</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Autograding|Win32'">$(OutDir)/BankAccount</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)/BankAccount</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)/BankAccount</DestinationFolders>
       <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Autograding|x64'">$(OutDir)/BankAccount</DestinationFolders>
+      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Autograding|Win32'">$(OutDir)/BankAccount</DestinationFolders>
+      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)/BankAccount</DestinationFolders>
+      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)/BankAccount</DestinationFolders>
+      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)/BankAccount</DestinationFolders>
       <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)/BankAccount</DestinationFolders>
     </CopyFileToFolders>
+  </ItemGroup>
+  <ItemGroup>
     <CopyFileToFolders Include="BankAccount\846326.txt">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)/BankAccount</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Autograding|Win32'">$(OutDir)/BankAccount</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)/BankAccount</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)/BankAccount</DestinationFolders>
       <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Autograding|x64'">$(OutDir)/BankAccount</DestinationFolders>
+      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Autograding|Win32'">$(OutDir)/BankAccount</DestinationFolders>
+      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)/BankAccount</DestinationFolders>
+      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)/BankAccount</DestinationFolders>
+      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)/BankAccount</DestinationFolders>
       <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)/BankAccount</DestinationFolders>
     </CopyFileToFolders>
+  </ItemGroup>
+  <ItemGroup>
     <CopyFileToFolders Include="BankAccount\859314.txt">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)/BankAccount</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Autograding|Win32'">$(OutDir)/BankAccount</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)/BankAccount</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)/BankAccount</DestinationFolders>
       <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Autograding|x64'">$(OutDir)/BankAccount</DestinationFolders>
+      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Autograding|Win32'">$(OutDir)/BankAccount</DestinationFolders>
+      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)/BankAccount</DestinationFolders>
+      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)/BankAccount</DestinationFolders>
+      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)/BankAccount</DestinationFolders>
       <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)/BankAccount</DestinationFolders>
     </CopyFileToFolders>
+  </ItemGroup>
+  <ItemGroup>
     <CopyFileToFolders Include="BankAccount\968521.txt">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)/BankAccount</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Autograding|Win32'">$(OutDir)/BankAccount</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)/BankAccount</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)/BankAccount</DestinationFolders>
       <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Autograding|x64'">$(OutDir)/BankAccount</DestinationFolders>
+      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Autograding|Win32'">$(OutDir)/BankAccount</DestinationFolders>
+      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)/BankAccount</DestinationFolders>
+      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)/BankAccount</DestinationFolders>
+      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)/BankAccount</DestinationFolders>
       <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)/BankAccount</DestinationFolders>
     </CopyFileToFolders>
   </ItemGroup>
