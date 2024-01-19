@@ -18,7 +18,6 @@ void Solution3::SortWords()
         throw std::logic_error("Cannot sort an empty vector of words");
     }
 
-    // Custom comparison function for case-insensitive alphabetical sorting
     auto caseInsensitiveCompare = [](const std::string& a, const std::string& b) {
         return std::lexicographical_compare(a.begin(), a.end(), b.begin(), b.end(), [](char c1, char c2) {
             return std::tolower(c1) < std::tolower(c2);

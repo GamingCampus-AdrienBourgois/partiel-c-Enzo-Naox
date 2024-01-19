@@ -10,7 +10,7 @@ float Solution1::ConvertTemperature(float _value, TemperatureUnits _from, Temper
 {
     if (_from == _to)
     {
-        // If the source and target units are the same, no conversion is needed
+        //Si l'unité de départ est la meme que celle voulu alors pas de conversion
         return _value;
     }
 
@@ -26,7 +26,6 @@ float Solution1::ConvertTemperature(float _value, TemperatureUnits _from, Temper
         return ConvertFromKelvin(_value, _to);
 
     default:
-        // Handle invalid source unit
         throw std::invalid_argument("Invalid source temperature unit");
     }
 }
@@ -43,7 +42,6 @@ float Solution1::ConvertFromCelsius(float _value, TemperatureUnits _to)
             return _value + 273.15f;
 
         default:
-            // Handle invalid target unit
             throw std::invalid_argument("Invalid target temperature unit");
         }
     }
@@ -61,7 +59,6 @@ float Solution1::ConvertFromFahrenheit(float _value, TemperatureUnits _to)
             return (_value - 32.0f) * 5.0f / 9.0f + 273.15f;
 
         default:
-            // Handle invalid target unit
             throw std::invalid_argument("Invalid target temperature unit");
         }
     }
@@ -79,7 +76,6 @@ float Solution1::ConvertFromKelvin(float _value, TemperatureUnits _to)
             return (_value - 273.15f) * 9.0f / 5.0f + 32.0f;
 
         default:
-            // Handle invalid target unit
             throw std::invalid_argument("Invalid target temperature unit");
         }
     }
